@@ -1,0 +1,8 @@
+*/venv
+.idea/
+
+# with privacy, including account , password etc.
+spider_ynuinfo/setting.json
+
+# ynuinfo.log is a log of ynuinfo
+spider_ynuinfo/ynuinfo.log
