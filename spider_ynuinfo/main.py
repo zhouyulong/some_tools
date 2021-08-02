@@ -198,9 +198,5 @@ def main():
         print('今日暂无新消息', time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime(time.time()+shift_to_beijing_time)))
 
 
-# taskList()
-# sendMail()
-# main()
 timer = multitimer.MultiTimer(interval=5, function=main)
 timer.start()
-# main()
